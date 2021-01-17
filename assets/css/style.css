@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto:wght@300&display=swap');
+
+/*--------------------Navbar*/
+.navbar{
+    background-color: #1b1b1b;
+    color: #f57c00;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 0;
+}
+
+.nav-link{
+    color: #f57c00;
+}
+
+/*-------------------- Welcome*/
+.welcome{
+    background-color: #6d6d6d
+    
+}
+
+
+
+/*--------------------Footer*/
+footer{
+    background-color: #424242;
+    color: #f57c00;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a i{
+    color: #f57c00;
+}
