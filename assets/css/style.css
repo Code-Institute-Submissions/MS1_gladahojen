@@ -6,25 +6,35 @@
     color: #f57c00;
     font-family: 'Chakra Petch', sans-serif;
     margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 .nav-link{
     color: #f57c00;
 }
 
+
 /*-------------------- Welcome*/
 .welcome{
-    background-color: #6d6d6d
-    
+    background-color: #6d6d6d;  
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 
 
 /*--------------------Footer*/
 footer{
-    background-color: #424242;
+    background-color: #424242; 
     color: #f57c00;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 footer a{
@@ -33,4 +43,25 @@ footer a{
 
 footer a i{
     color: #f57c00;
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
 }
+ footer h6{
+     text-decoration: underline;
+     margin-bottom: 0;
+     text-transform: uppercase;
+ }
+
+ footer p{
+     margin-bottom: 0;
+ }
+
+ .container{
+    margin: 0;
+    background-color: #424242;
+ }
+
+ 
+ 
