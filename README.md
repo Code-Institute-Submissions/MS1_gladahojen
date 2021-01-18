@@ -66,6 +66,16 @@ Github
 
 ### ___ BUGGS ___
 
+Footer - responsive design won't work. Tried targeting classes. Asked on Slack
+
+Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
+    Googled "how to create a bootstrap carousel". Both sites 
+    https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php
+    and
+    https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+    said that the code used to activate the carousel is *data-ride="carousel"*
+    Change the code. Carousel works.
+
 ### ___ TESTING ___
 
 ### ___ CREDITS ___

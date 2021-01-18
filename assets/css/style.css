@@ -23,8 +23,14 @@
     color: #424242;
 }
 
+/*-------------------- Image carousel*/
 
-/*-------------------- Welcome*/
+#carousel-header{
+    background-color: #1b1b1b;
+}
+
+
+/*-------------------- Main section*/
 .main{
     background-color: #6d6d6d;  
     text-align: center;
@@ -84,5 +90,8 @@ footer a i{
     background-color: #424242;
  }
 
- 
+.col-sm-12{
+    text-align: center;
+}
+    
  
