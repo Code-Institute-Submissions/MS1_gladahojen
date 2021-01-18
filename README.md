@@ -75,6 +75,8 @@ Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
     https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
     said that the code used to activate the carousel is *data-ride="carousel"*
     Change the code. Carousel works.
+Image sizeing - Googled "change image size css"
+    https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css    
 
 ### ___ TESTING ___
 
