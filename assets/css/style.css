@@ -40,7 +40,7 @@
 
 }
 
-.main_second{
+.main-second{
     background-color: #585858;
 }
 
@@ -123,9 +123,23 @@ p{
 
 }
 
+.main-map { 
+    padding-left: 30px;    
+    text-align: left;
+}
+
+/*--------------------Email form*/
+
+.email-form{
+    margin-top: 50px;
+    color: #ffad42;
+    max-width: 480px;
+}
+
 
 
 /*--------------------Footer*/
+
 footer{
     background-color: #424242; 
     color: #f57c00;

@@ -66,7 +66,18 @@
 
     <section class="main">
          <!-- Email form -->
-         <h1>Email form goes here</h1>
+        <h3>Skicka ett mail</h3> 
+         <form class="email-form" method="POST">
+             <label for="name">Namn:</label>
+             <input id="name" type="text" required>
+             <label for="email">Email:</label>
+             <input id="email" type="email" required>
+             <label for="number">Mobilnummer:</label>
+             <input id="number" type="number">
+             <label for="message">Ditt medelande</label>
+             <input id="message" type="text">
+             <button type="submit">Sänd</button>
+         </form>
     </section>
 
     <footer>
