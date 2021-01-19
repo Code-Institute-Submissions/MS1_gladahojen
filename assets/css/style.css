@@ -31,7 +31,7 @@
 }
 
 
-/*-------------------- Main section*/
+/*-------------------- Main section Index*/
 .main{
     background-color: #6d6d6d;  
     text-align: center;
@@ -73,15 +73,55 @@ p{
     background-color: #6d6d6d;
 }
 
+/*-------------------- Main section Workshop*/
+
+
+.main-workshop{    
+    background: url(/assets/images/service-bw.jpg) no-repeat bottom left fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 .workshop{
     text-align: left;
     margin-left: 30px;
-
+    padding-top: 30px;
 }
 
 .list{
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
+}    
+
+.opaque-overlay{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.workshop i{
+    padding-left: 10px;
+}
+
+/*-------------------- Main section History*/
+
+#history-row{
+    background-color: #585858;
+    margin-right: 30px;
+    
+}
+
+.history{
+    text-align: left;
+    margin-left: 30px;
+
+}
 
 
 
