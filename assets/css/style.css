@@ -6,6 +6,7 @@
     color: #f57c00;
     font-family: 'Chakra Petch', sans-serif;
     margin-bottom: 0;
+    padding-left: 25px;
     text-transform: uppercase;
 }
 
@@ -50,12 +51,16 @@ h1{
 
 h3{
     font-family: 'Chakra Petch', sans-serif;
-    color: #fafafa;
+    color: #ffad42;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .container{
@@ -67,6 +72,17 @@ p{
     width: auto;
     background-color: #6d6d6d;
 }
+
+.workshop{
+    text-align: left;
+    margin-left: 30px;
+
+}
+
+.list{
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+
 
 
 /*--------------------Footer*/

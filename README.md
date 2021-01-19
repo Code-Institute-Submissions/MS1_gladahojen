@@ -58,7 +58,7 @@ CSS3
 #### Frameworks, Libraries, Programs
 Balsamic Images
 Gimp
-Boostrap 4.5
+Boostrap v.5.0
 Google Fonts
 Font awsome
 Github
@@ -75,6 +75,12 @@ Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
     https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
     said that the code used to activate the carousel is *data-ride="carousel"*
     Change the code. Carousel works.
+
+    Even though all photos in the carousel have the same height, an extra space is created 
+    underneath the image befor Tires_bw.jpg and tools_bw.jpg. This makes the scetion below move 
+    up and down when it changes image. Manage to change the background-color, but haven't figured
+    out how to get rid of the extra space. Maybe a "marign-bottom"...?
+
 Image sizeing - Googled "change image size css"
     https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css    
 
