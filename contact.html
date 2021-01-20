@@ -66,17 +66,19 @@
 
     <section class="main">
          <!-- Email form -->
-        <h3>Skicka ett mail</h3> 
-         <form class="email-form" method="POST">
-             <label for="name">Namn:</label>
-             <input id="name" type="text" required>
-             <label for="email">Email:</label>
-             <input id="email" type="email" required>
-             <label for="number">Mobilnummer:</label>
-             <input id="number" type="number">
-             <label for="message">Ditt medelande</label>
-             <input id="message" type="text">
-             <button type="submit">Sänd</button>
+        <h3 class="contact">Skicka ett mail<i class="far fa-envelope"></i></h3> 
+         <form class="email-form" method="POST" action="#">
+            <label for="name">Namn:</label>
+            <input id="name" class="text-input" type="text" required><br>
+            <label for="email">Email:</label>
+            <input id="email" class="text-input" type="email" required>
+            <label for="number">Mobilnummer:</label>
+            <input id="number" class="text-input" type="number">
+            <label for="message">Ditt medelande</label>
+            <textarea id="message" class="text-input"></textarea> <!--Textarea inspired from Bootstrap-->
+            <div class="button-holder">
+            <input class="send-button uppercase" type="submit" value="Sänd">
+            </div>
          </form>
     </section>
 

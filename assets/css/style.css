@@ -128,15 +128,79 @@ p{
     text-align: left;
 }
 
+/*--------------------Motorcycle parts section*/
+
+.motor{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.motor i{
+    padding-left: 10px;
+}
+
+
 /*--------------------Email form*/
+
+.contact i{
+    padding-left: 10px;
+}
 
 .email-form{
     margin-top: 50px;
     color: #ffad42;
     max-width: 480px;
+    left: 10%;
+    padding: 30px;
+    background-color: rgba(27, 27, 27, 0.7);
+    border-radius: 25px;
+    margin: auto;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: left;
 }
 
+.text-input{
+    background: transparent;
+    background-color: #424242;
+    color: #fafafa;
+    border: 3px solid #ffad42;
+    border-radius: 9px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 35px;
+}
 
+#message{
+    height: 150px;
+}
+
+.text-input:hover{
+    border-color: #f57c00;
+}
+
+.send-button{
+    margin-top: 30px;
+    border-radius: 9px;
+    padding: 7px 30px;
+    color: #ffad42;
+    background-color: #424242;
+    border: 3px solid #ffad42;
+    text-align: center;
+}
+
+.send-button:hover{
+    color: #424242;
+    background-color: #ffad42;
+    border: 3px solid #f57c00;
+}
+
+#button-holder{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
 
 /*--------------------Footer*/
 
