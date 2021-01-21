@@ -99,8 +99,8 @@ p{
     color: #f57c00;
 }
 
-/*-------------------- Main section Workshop*/
 
+/*-------------------- Main section Workshop*/
 
 .main-workshop{    
     background: url(/assets/images/service-bw.jpg) no-repeat bottom left fixed; 
@@ -109,6 +109,7 @@ p{
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    z-index: -2;
 }
 
 .workshop{
@@ -117,9 +118,19 @@ p{
     padding-top: 30px;
 }
 
+h3.workshop{
+    color: #424242;
+    font-weight: 600;
+}
+
+p.workshop{
+    color: #1b1b1b;
+    font-weight: 500;
+}
+
 .list{
     font-family: 'Roboto', sans-serif;
-    color: #fafafa;
+    color: #1b1b1b;
 }    
 
 .opaque-overlay{
@@ -128,7 +139,8 @@ p{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 173, 66, 0.8);
+    z-index: -1;
 }
 
 .workshop i{
@@ -148,6 +160,12 @@ p{
     margin-left: 30px;
 }
 
+h3.history{
+    color: #ffad42;
+    padding-top: 30px;
+}
+
+
 /*-------------------- Main section Map*/
 .main-map { 
     padding-left: 30px;    
@@ -161,6 +179,7 @@ p{
     text-align: left;
     margin-left: 30px;
     padding-top: 30px;
+    color: #fafafa;
 }
 
 .motor i{
@@ -181,8 +200,24 @@ p{
    
 }
 
+h3.motor{
+    color: #ffad42;
+}
+
+
 /*--------------------Main section Resell*/
 
+.royal{
+    color: #fafafa;
+    margin-left: 30px;
+}
+
+h4.royal{
+    color: #fafafa;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+s}
 
 
 /*--------------------Email form*/

@@ -87,6 +87,11 @@ Image sizeing - Googled "change image size css"
 Opaque-overlay - The overlay in workshop_about.html workshop section overlays the paragraph text 
     instead of only the image. Used the Updating Our Callout-video as a guide, but it didn't came
     out right.
+    Tried adding z-index with different positive vaules, but still the same.
+    Asked Tutor Support and got the suggestion to try with negative values.
+    But then the opaque overlay disappered compleatly.
+    After adding a z-index: -2; to .main-workshop, then adding z-index: -1; it worked.
+
 
 ### ___ TESTING ___
 
