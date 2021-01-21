@@ -77,12 +77,16 @@ Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
     Change the code. Carousel works.
 
     Even though all photos in the carousel have the same height, an extra space is created 
-    underneath the image befor Tires_bw.jpg and tools_bw.jpg. This makes the scetion below move 
+    underneath the image befor tires_bw.jpg and tools_bw.jpg. This makes the scetion below move 
     up and down when it changes image. Manage to change the background-color, but haven't figured
     out how to get rid of the extra space. Maybe a "marign-bottom"...?
 
 Image sizeing - Googled "change image size css"
     https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css    
+
+Opaque-overlay - The overlay in workshop_about.html workshop section overlays the paragraph text 
+    instead of only the image. Used the Updating Our Callout-video as a guide, but it didn't came
+    out right.
 
 ### ___ TESTING ___
 

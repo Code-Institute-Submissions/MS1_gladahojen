@@ -14,6 +14,10 @@
     color: #f57c00;
 }
 
+.nav-link:hover{
+    color: #6d6d6d;
+}
+
 .navbar-toggler-icon{
     background-color: #f57c00;
     border-radius: 15%;
@@ -23,6 +27,14 @@
     margin-top: 5px;
     color: #424242;
 }
+
+#logo{
+    width: 40px;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 
 /*-------------------- Image carousel*/
 
@@ -37,7 +49,6 @@
     text-align: center;
     padding-bottom: 20px;
     padding-top: 10px;
-
 }
 
 .main-second{
@@ -82,6 +93,10 @@ p{
 .babes a{
     text-decoration: none;
     color: #ffad42;
+}
+
+.babes a:hover{
+    color: #f57c00;
 }
 
 /*-------------------- Main section Workshop*/
@@ -133,13 +148,14 @@ p{
     margin-left: 30px;
 }
 
+/*-------------------- Main section Map*/
 .main-map { 
     padding-left: 30px;    
     text-align: left;
 }
 
 
-/*--------------------Motorcycle parts section*/
+/*--------------------Main section Motorcycle*/
 
 .motor{
     text-align: left;
@@ -151,9 +167,21 @@ p{
     padding-left: 10px;
 }
 
- .motor a{
-     text-decoration: none;
+.motor a{
+    text-decoration: none;
+    color: #ffad42;
  }
+
+.motor a:hover{
+    color: #f57c00;
+}
+
+#motor-row{
+    background-color: #6d6d6d;
+   
+}
+
+/*--------------------Main section Resell*/
 
 
 
@@ -253,7 +281,7 @@ footer a i{
     color: #f57c00;
  }
 
-.row{ 
+#footer-row{ 
    background-color: #424242; 
 }
 
