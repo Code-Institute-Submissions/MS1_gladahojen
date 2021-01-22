@@ -39,12 +39,11 @@
 /*-------------------- Image carousel*/
 
 #carousel-header{
-    background-color: #1b1b1b;
+    background-color: #1b1b1b; 
 }
 
-.carousel-item{
-    height: 470px;
-}
+
+
 
 /*-------------------- Main section Index*/
 .main{
@@ -61,6 +60,7 @@
 h1{
     font-family: 'Chakra Petch', sans-serif;
     color: #f57c00;
+    padding-top: 20px
 }
 
 h3{
@@ -78,12 +78,13 @@ p{
 }
 
 .container{
-    background-color: #6d6d6d;
+    padding-bottom: 30px;
 }
 
-.container{
-    height: 400px;
+.container img{
+    max-height: 400px;
     width: auto;
+    background-color: #6d6d6d;
 }
 
 .babes{
@@ -133,6 +134,7 @@ p.workshop{
 .list{
     font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
+
 }    
 
 .opaque-overlay{
@@ -204,6 +206,17 @@ h3.history{
 
 h3.motor{
     color: #ffad42;
+}
+
+p.motor{
+    margin-bottom: 0;
+}
+
+.aside-motor{
+    float: right;
+    margin-right: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 
