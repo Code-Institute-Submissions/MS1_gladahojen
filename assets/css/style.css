@@ -42,6 +42,9 @@
     background-color: #1b1b1b;
 }
 
+.carousel-item{
+    height: 470px;
+}
 
 /*-------------------- Main section Index*/
 .main{
@@ -78,10 +81,9 @@ p{
     background-color: #6d6d6d;
 }
 
-.container img{
-    max-height: 400px;
+.container{
+    height: 400px;
     width: auto;
-    background-color: #6d6d6d;
 }
 
 .babes{
@@ -217,7 +219,7 @@ h4.royal{
     font-family: 'Chakra Petch', sans-serif;
     margin-top: 30px;
     margin-bottom: 10px;
-s}
+}
 
 
 /*--------------------Email form*/
