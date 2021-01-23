@@ -36,6 +36,30 @@
     padding-bottom: 0;
 }
 
+.underline{
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #f57c00;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  right: 0;
+} 
 
 
 /*-------------------- Image carousel*/
@@ -131,14 +155,17 @@ h3.workshop{
 
 p.workshop{
     color: #1b1b1b;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .list{
     font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
-
 }    
+
+.workshop-list{
+    font-weight: 600;
+}
 
 .opaque-overlay{
     position: absolute;
@@ -287,6 +314,29 @@ p.royal{
 #royal-card{
 }
 #zard-card{
+}
+
+/*--------------------Main section Rider */
+
+.rider{
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 30px;
+    color: #fafafa;
+}
+
+h3.rider{
+    text-align: left;
+    color: #ffad42;
+}
+
+.rider a{
+    text-decoration: none;
+    color: #ffad42;
+ }
+
+.rider a:hover{
+    color: #f57c00;
 }
 
 
