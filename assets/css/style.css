@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Roboto:wght@300&display=swap');
 
 /*--------------------Navbar*/
+
 .navbar{
     background-color: #1b1b1b;
     color: #f57c00;
@@ -36,6 +37,7 @@
 }
 
 
+
 /*-------------------- Image carousel*/
 
 #carousel-header{
@@ -44,8 +46,8 @@
 
 
 
-
 /*-------------------- Main section Index*/
+
 .main{
     background-color: #6d6d6d;  
     text-align: center;
@@ -103,6 +105,7 @@ p{
 }
 
 
+
 /*-------------------- Main section Workshop*/
 
 .main-workshop{    
@@ -152,6 +155,7 @@ p.workshop{
 }
 
 
+
 /*-------------------- Main section History*/
 
 #history-row{
@@ -170,11 +174,14 @@ h3.history{
 }
 
 
+
 /*-------------------- Main section Map*/
+
 .main-map { 
     padding-left: 30px;    
     text-align: left;
 }
+
 
 
 /*--------------------Main section Motorcycle*/
@@ -200,8 +207,7 @@ h3.history{
 }
 
 #motor-row{
-    background-color: #6d6d6d;
-   
+    background-color: #6d6d6d; 
 }
 
 h3.motor{
@@ -220,7 +226,12 @@ p.motor{
 }
 
 
+
 /*--------------------Main section Resell*/
+
+.resell-row{
+   padding-top: 20px;
+}
 
 .royal{
     color: #fafafa;
@@ -233,6 +244,51 @@ h4.royal{
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+p.royal{
+    padding-bottom: 50px;
+}
+
+.card{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.card-title{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f57c00;
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    color: #424242;
+}
+
+.button{
+    background-color: #ffad42;
+    color: #424242;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 3px solid #424242;
+    border-radius: 20px;
+    margin-top: 25px;
+    border-radius: 9px;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+.button:hover{
+    color: #ffad42;
+    background-color: #424242;
+    border: 3px solid #f57c00;
+}
+
+#royal-card{
+}
+#zard-card{
+}
+
 
 
 /*--------------------Email form*/
