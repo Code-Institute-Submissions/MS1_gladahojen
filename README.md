@@ -7,10 +7,14 @@ My version (http--link--)
 
 ### ___ *STRATEGY* ___
 
-Who is it for?
+Who is it for? 
+    Current and new custumers and bike riders.
 What is it?
-Why an I building it?
-
+    A webpage that describes the different services and products provided.
+Why am I building it?
+    The current webpage isn't really good or up to date, and the workshop's web presence today is
+    mostly instagram and facebook, but custumers are mostly around their 40's and up. My assumtpion
+    is that they usually don't hang out as much on social media.
 
 
 ### ___ *SCOPE* ___
@@ -65,6 +69,9 @@ Github
 
 
 ### ___ BUGGS ___
+
+Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discrd?
+    Code from: https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
 
 Footer - responsive design won't work. Tried targeting classes. Asked on Slack
 
