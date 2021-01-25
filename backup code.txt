@@ -1,0 +1,93 @@
+
+HTML
+
+<footer> <!--Bootstrap layouts for columns-->
+        <div class="container">
+            <div class="row" id="footer-row">
+                <!-- Adress, Phone -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h6><strong>Adress:</strong></h6>
+                    <p>Vendelsömalmsvägen 94</p>
+                    <p>136 69 Vendelsö</p>
+                </div>  
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h6><strong>Telefon:</strong></h6> 
+                    <p>08-500 779 99</p>
+                </div>
+            
+                <!-- Social media icons  -->
+                <div class="col-lg-4 col-md-12 col-sm-12">    
+                    <a href="https://www.facebook.com/Gladahojen/photos/?ref=page_internal" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gladahojen/?hl=sv" target="_blank">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </div>
+            </div>    
+        </div>
+    </footer>
+
+
+
+CSS
+
+footer{
+    background-color: #424242; 
+    color: #f57c00;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a i{
+    color: #f57c00;
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer a i:hover{
+    color: #ffad42;
+}
+ 
+
+ footer h6{
+    text-decoration: underline;
+    margin-bottom: 0;
+    text-transform: uppercase;
+ }
+
+ footer p{
+    margin-bottom: 0;
+    color: #f57c00;
+ }
+
+#footer-row{ 
+   background-color: #424242; 
+}
+
+
+@media screen and (max-width: 600px){
+    .col-sm-12{
+        width: 100%;
+        text-align: center;
+    }
+@media screen and (max-width: 800px){
+    .col-md-6{
+        width: 50%;
+    }
+@media screen and (max-width: 1080px){
+    .col-lg-4{
+        width: 30% ;
+    } 
+}

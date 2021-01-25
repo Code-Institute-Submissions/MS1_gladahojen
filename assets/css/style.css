@@ -316,10 +316,12 @@ p.royal{
     border: 3px solid #f57c00;
 }
 
+/* --------------- Might use later for individual styling
 #royal-card{
 }
 #zard-card{
 }
+----*/
 
 
 /*--------------------Main section Rider */
@@ -419,7 +421,7 @@ h3.rider{
 footer{
     background-color: #424242; 
     color: #f57c00;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     padding-bottom: 15px;
     padding-top: 10px;
 }
@@ -430,7 +432,7 @@ footer a{
 
 footer a i{
     color: #f57c00;
-    float: right;
+    
     margin-top: 15px;
     margin-left: 10px;
     font-size: 25px;
@@ -445,13 +447,15 @@ footer a i:hover{
 }
  
 
- footer h6{
+footer h6{
     text-decoration: underline;
     margin-bottom: 0;
+    padding-top: 10px;
     text-transform: uppercase;
  }
 
- footer p{
+footer p{
+    font-family: 'Chakra Petch', sans-serif;
     margin-bottom: 0;
     color: #f57c00;
  }
@@ -461,19 +465,5 @@ footer a i:hover{
 }
 
 
-@media screen and (max-width: ){
-    .col-sm-12{
-        width: ;
-    }
-
-    .col-md-6{
-        width: ;
-    }
-
-    .col-lg-4{
-        width: ;
-    } 
-
-}
     
  
