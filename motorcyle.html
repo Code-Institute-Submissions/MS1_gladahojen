@@ -71,32 +71,37 @@
         <!-- Motorcycle section -->
         <h3 class="uppercase motor">Motorcykel <i class="fas fa-motorcycle"></i></h3>
 
-<!--Move image to the right of text, make it resposive so that it moves underneth the text-->
-            <aside class="aside-motor">
-                <img src="/assets/images/sidebag-bw.jpg" alt="A motorcycle sidebag" style="width: 400px; height: auto;">
-            </aside>  
-            <p class="motor"> 
-                Hos Glada Hojen hittar delar till de flesta märken.<br> 
-                Finns det inte i butiken så går det alltid att beställa.<br>
-                Hör av dig och berätta vad du letar efter!
-                Här kan du bl a köpa:
-                <ul class="motor list">
-                    <li>Oljor</li>
-                    <li>Drivpaket</li>
-                    <li>Luftfilter</li>
-                    <li>Däck</li>
-                    <li>Reservdelar</li>
-                    <li>Väskor m.m.</li>
-                </ul>
-            </p>
-            <p class="motor">
-                Du hittar även produkter från:
-                <ul class="motor list">
-                    <li><strong><a href="https://www.lightechuk.com/" target="_blank">Lightech</a></strong></li>
-                    <li><strong><a href="https://www.rammount.com/" target="_blank">RAM Mounts</a></strong></li>
-                </ul>
-            </p>  
-            
+<!--Move image to the right of text, make it resposive so that it moves underneth the text. Done-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p class="motor"> 
+                        Hos Glada Hojen hittar delar till de flesta märken.<br> 
+                        Finns det inte i butiken så går det alltid att beställa.<br>
+                        Hör av dig och berätta vad du letar efter!
+                        Här kan du bl a köpa:
+                        <ul class="motor list">
+                            <li>Oljor</li>
+                            <li>Drivpaket</li>
+                            <li>Luftfilter</li>
+                            <li>Däck</li>
+                            <li>Reservdelar</li>
+                            <li>Väskor m.m.</li>
+                        </ul>
+                    </p>
+                    <p class="col-sm motor">
+                        Du hittar även produkter från:
+                        <ul class="motor list">
+                            <li><strong><a href="https://www.lightechuk.com/" target="_blank">Lightech</a></strong></li>
+                            <li><strong><a href="https://www.rammount.com/" target="_blank">RAM Mounts</a></strong></li>
+                        </ul>
+                    </p> 
+                </div>
+                <div class="col-sm aside-motor">
+                    <img src="/assets/images/sidebag-bw.jpg" alt="A motorcycle sidebag" style="height: auto; width: 60%;">
+                </div>
+            </div>     
+        </div>    
     </section>
 
     <section class="main-second main-second-resell"> 
@@ -137,9 +142,30 @@
     </section>
     
 <!--See issues in index, add footer when solved-->
-    <footer>
-        <!-- Adress, Phone, Email -->
-        <!-- Social media icons  -->
+      <footer> <!--Bootstrap layouts for columns-->
+       <div class="container">
+            <div class="row" id="footer-row">
+                <div class="col-sm">
+                        <h6><strong>Adress:</strong></h6>
+                        <p>Vendelsömalmsvägen 94</p>
+                        <p>136 69 Vendelsö</p>
+                </div>  
+                <div class="col-sm">
+                        <h6><strong>Telefon:</strong></h6> 
+                        <p>08-500 779 99</p>
+                </div> 
+                
+                    <!-- Social media icons -->
+                <div class="col-sm">    
+                    <a href="https://www.facebook.com/Gladahojen/photos/?ref=page_internal" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gladahojen/?hl=sv" target="_blank">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </div>
+            </div>    
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

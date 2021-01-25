@@ -30,6 +30,7 @@
                     <li class="nav-item">
                         <a class="nav-link underline" href="workshop_about.html">Verkstad / Om</a>
                     </li>
+<!--Dropdown works but doesn't because of underline animation-->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle underline" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Butik
@@ -76,9 +77,9 @@
         <!-- Welcome text -->
         <h1 class="uppercase">Glada Hojen</h1>
         <h3>- får din bike att må bra!</h3>
-<!--Code from Stackowerflow to resize the image, might need to use another method-->
+<!--Code from Stackowerflow to resize the image-->
         <div class="container"> 
-            <img src="/assets/images/entrence-bw.jpg" alt="A motorcycle at the entrence" >
+            <img src="/assets/images/entrence-bw.jpg" alt="A motorcycle at the entrence" style="height: auto; width: 60%;">
         </div>
         
         <p>
@@ -94,21 +95,21 @@
         </div>
     </section>
 
-<!--Need to make footer responsive-->
+<!--Need to make footer responsive. Done-->
     <footer> <!--Bootstrap layouts for columns-->
        <div class="container">
-        <div class="row" id="footer-row">
-            <div class="col-sm">
-                    <h6><strong>Adress:</strong></h6>
-                    <p>Vendelsömalmsvägen 94</p>
-                    <p>136 69 Vendelsö</p>
+            <div class="row" id="footer-row">
+                <div class="col-sm">
+                        <h6><strong>Adress:</strong></h6>
+                        <p>Vendelsömalmsvägen 94</p>
+                        <p>136 69 Vendelsö</p>
                 </div>  
                 <div class="col-sm">
-                    <h6><strong>Telefon:</strong></h6> 
-                    <p>08-500 779 99</p>
+                        <h6><strong>Telefon:</strong></h6> 
+                        <p>08-500 779 99</p>
                 </div> 
-            
-                <!-- Social media icons -->
+                
+                    <!-- Social media icons -->
                 <div class="col-sm">    
                     <a href="https://www.facebook.com/Gladahojen/photos/?ref=page_internal" target="_blank">
                         <i class="fab fa-facebook-square"></i>

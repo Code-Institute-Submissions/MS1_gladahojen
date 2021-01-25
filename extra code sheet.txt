@@ -1,5 +1,5 @@
 
-HTML
+___HTML
 
 <footer> <!--Bootstrap layouts for columns-->
         <div class="container">
@@ -30,7 +30,7 @@ HTML
 
 
 
-CSS
+___CSS
 
 footer{
     background-color: #424242; 

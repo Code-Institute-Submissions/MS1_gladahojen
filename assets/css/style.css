@@ -112,11 +112,6 @@ p{
     padding-bottom: 30px;
 }
 
-.container img{
-    max-height: 400px;
-    width: auto;
-    background-color: #6d6d6d;
-}
 
 .babes{
     text-align: right;
@@ -250,13 +245,6 @@ p.motor{
     margin-bottom: 0;
 }
 
-.aside-motor{
-    float: right;
-    margin-right: 30px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-}
-
 
 
 /*--------------------Main section Resell*/
@@ -308,6 +296,10 @@ p.royal{
     border-radius: 9px;
     padding: 5px 25px;
     text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .button:hover{
