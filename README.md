@@ -8,12 +8,12 @@ My version (http--link--)
 ### ___ *STRATEGY* ___
 
 Who is it for? 
-    Current and new custumers and bike riders.
+    Current and new customers and bike riders.
 What is it?
     A webpage that describes the different services and products provided.
 Why am I building it?
     The current webpage isn't really good or up to date, and the workshop's web presence today is
-    mostly instagram and facebook, but custumers are mostly around their 40's and up. My assumtpion
+    instagram and facebook, but customers are mostly around their 40's and up. My assumtpion
     is that they usually don't hang out as much on social media.
 
 
@@ -33,25 +33,39 @@ Non-linear
     - Store
         Motorcyle parts
         Riding gear
-    - Contact
+    - Contact (email form)
 
 
 
 ### ___ *SKELETON* ___
 
-Navigation design 
-Hierachy information
+Navigation design: 
+    A navbar at the top with a dropdown menu, and a footer with adress and phone number
+    at the bottom. Both on evey page of the site.
 
+Hierachy information:
+    Navbar left to right:
+    Home - a short describtion of the workshop
+    Workshop / About - I choose the put the workshop information first because that's whats
+        people probably wants to know first. After that they can learn more about the
+        company background.
+    Shop (dropdown menu) 
+        Motorcyle - a short describtion of parts and brands that are used.
+        Clothes - a short describtion of what's avaible in store or for order.
+    Contact - Email form to get in touch.
 
 
 ### ___ *SURFACE* ___
 
-Color
-Fonts
-    (color contrast)
-Order of apperance
-Images
-    (black/white)
+*Color: 
+    Grays 
+    Oranges
+*Fonts:
+    Font-family: Chakra Petch, sans-serif and Roboto, sans-serif
+*Order of apperance
+*Images:
+    All images are either my own, provided by or taken with permisson from Glada Hojen.
+    They are edited to black and white to follow the gray theme.
 
 
 ### ___ Technology ___

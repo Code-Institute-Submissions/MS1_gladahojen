@@ -9,6 +9,10 @@
     margin-bottom: 0;
     padding-left: 25px;
     text-transform: uppercase;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .nav-link{
@@ -60,6 +64,7 @@
 .underline:active:after {
   right: 0;
 } 
+
 
 
 /*-------------------- Image carousel*/
@@ -316,6 +321,7 @@ p.royal{
 #zard-card{
 }
 
+
 /*--------------------Main section Rider */
 
 .rider{
@@ -388,6 +394,10 @@ h3.rider{
     background-color: #424242;
     border: 3px solid #ffad42;
     text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .send-button:hover{
@@ -424,7 +434,16 @@ footer a i{
     margin-top: 15px;
     margin-left: 10px;
     font-size: 25px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+footer a i:hover{
+    color: #ffad42;
+}
+ 
 
  footer h6{
     text-decoration: underline;
@@ -442,6 +461,19 @@ footer a i{
 }
 
 
+@media screen and (max-width: ){
+    .col-sm-12{
+        width: ;
+    }
 
+    .col-md-6{
+        width: ;
+    }
+
+    .col-lg-4{
+        width: ;
+    } 
+
+}
     
  
