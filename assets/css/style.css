@@ -39,7 +39,7 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-
+/*------- Underline animation */
 .underline{
   display: inline;
   position: relative;
@@ -131,7 +131,7 @@ p{
 
 
 /*-------------------- Main section Workshop*/
-
+/* make background-image responsive to fit on mobile*/
 .main-workshop{    
     background: url(/assets/images/service-bw.jpg) no-repeat bottom left fixed; 
     -webkit-background-size: cover;

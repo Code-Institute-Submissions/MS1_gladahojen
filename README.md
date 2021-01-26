@@ -84,10 +84,23 @@ Github
 
 ### ___ BUGGS ___
 
-Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discrd?
+Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discard?
     Code from: https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
 
-Footer - responsive design won't work. Tried targeting classes. Asked on Slack
+    Validation comes out ok.
+    Used Diffcheck to see if there was any differnce in the code. No errors.
+    Tried to comment out the <li> with a dropdown class to see if the dropdown was the issue. It wasn't.
+    Change the z-index value between (-2, -1, 1, 2). Still only worked on index.html.
+        
+
+Footer - responsive design won't work. Tried targeting different classes. 
+    Asked on Slack, and got the advice from Richard Ash to try wrapping three "col-sm" divs inside a "row".
+    still didn't work as I wanted.
+    Contacted Tutor Support and got this link https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp
+    After rreading through it I realized that I had added a mix of different classes.
+    So I started fresh on the footer and redid the classes. 
+    Now the footer is responsive. 
+    This also made me realize how to make the main content resposive on the other pages.
 
 Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
     Googled "how to create a bootstrap carousel". Both sites 
