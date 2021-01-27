@@ -91,7 +91,14 @@ Navbar - Underline hover animation doesn't work on all pages and the dropdown di
     Used Diffcheck to see if there was any differnce in the code. No errors.
     Tried to comment out the <li> with a dropdown class to see if the dropdown was the issue. It wasn't.
     Change the z-index value between (-2, -1, 1, 2). Still only worked on index.html.
-        
+    After talking to Tutor Support it turned out that I was loading the CSS befor the Bootstrap on the
+    other pages. After moving the CSS below it works on the other pages too. 
+
+    To get the animationto work on the dropdown I was adviced to try to target <li class="nav-item dropdown"> 
+    instead of the <a> tag with the .underline.
+    The dropdown arrow becomes visable but I don't get any underline animation or a dropdown menu. It is
+    also moved out of place.
+    
 
 Footer - responsive design won't work. Tried targeting different classes. 
     Asked on Slack, and got the advice from Richard Ash to try wrapping three "col-sm" divs inside a "row".

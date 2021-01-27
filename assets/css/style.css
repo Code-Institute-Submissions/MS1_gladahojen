@@ -28,6 +28,11 @@
     border-radius: 15%;
 }
 
+.active{
+    background-color: #424242;
+    color: #f57c00;
+}
+
 .fa-bars{
     margin-top: 5px;
     color: #424242;
