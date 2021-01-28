@@ -86,17 +86,18 @@
     background-color: #6d6d6d;  
     text-align: center;
     padding-bottom: 20px;
-    padding-top: 10px;
+    
 }
 
 .main-second{
     background-color: #585858;
+    
 }
 
 h1{
     font-family: 'Chakra Petch', sans-serif;
     color: #f57c00;
-    padding-top: 20px
+    padding-top: 30px
 }
 
 h3{
@@ -111,10 +112,13 @@ p{
 
 .uppercase{
     text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .container{
     padding-bottom: 30px;
+
 }
 
 
@@ -138,7 +142,7 @@ p{
 /*-------------------- Main section Workshop*/
 /* make background-image responsive to fit on mobile*/
 .main-workshop{    
-    background: url(../assets/images/service-bw.jpg) no-repeat bottom left fixed; 
+    background: url(/assets/images/workshop-background.jpg) no-repeat bottom left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -156,20 +160,24 @@ p{
 h3.workshop{
     color: #424242;
     font-weight: 600;
+    padding-left: 50px;
 }
 
 p.workshop{
     color: #1b1b1b;
     font-weight: 600;
+    padding-left: 50px;
 }
 
 .list{
     font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
+    padding-left: 70px;
 }    
 
 .workshop-list{
     font-weight: 600;
+    
 }
 
 .opaque-overlay{
@@ -203,14 +211,17 @@ p.workshop{
 h3.history{
     color: #ffad42;
     padding-top: 30px;
+    padding-left: 50px;
 }
 
+p.history{
+    padding-left: 50px;
+}
 
 
 /*-------------------- Main section Map*/
 
-.main-map { 
-    padding-top: 50px;    
+.main-map {   
     text-align: center;
 }
 
@@ -243,6 +254,7 @@ h3.history{
 
 h3.motor{
     color: #ffad42;
+    padding-left: 50px;
 }
 
 p.motor{
@@ -255,28 +267,17 @@ p.motor{
 
 .resell-row{
    padding-top: 20px;
+   padding-left: 50px;
 }
 
-.royal{
-    color: #fafafa;
-    margin-left: 30px;
-}
-
-h4.royal{
-    color: #fafafa;
-    font-family: 'Chakra Petch', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-p.royal{
-    padding-bottom: 50px;
-}
 
 .card{
     margin-left: 30px;
     margin-bottom: 30px;
+    background-color: #fafafa;
+    border: none;
 }
+
 
 .card-title{
     font-family: 'Chakra Petch', sans-serif;
@@ -332,6 +333,7 @@ p.royal{
 h3.rider{
     text-align: left;
     color: #ffad42;
+    padding-left: 50px;
 }
 
 .rider a{
@@ -385,7 +387,6 @@ h3.rider{
 }
 
 .send-button{
-    margin-top: 30px;
     border-radius: 9px;
     padding: 7px 30px;
     color: #ffad42;
@@ -428,7 +429,6 @@ footer a{
 
 footer a i{
     color: #f57c00;
-    
     margin-top: 15px;
     margin-left: 10px;
     font-size: 25px;
@@ -461,5 +461,36 @@ footer p{
 }
 
 
-    
+@media screen and (max-width:600px){
+    .main-home p{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .email-form{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    #footer-row{
+        text-align: center;
+    }
+
+    footer a i{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+        font-size: 35px;
+    }
+}    
  
+@media screen and (max-width:800px){
+    .main-home p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    #footer-row{
+        text-align: center;
+    }
+}
