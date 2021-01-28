@@ -462,16 +462,33 @@ footer p{
 
 
 @media screen and (max-width:600px){
+/*-------------------- index*/
     .main-home p{
         padding-left: 12px;
         padding-right: 12px;
     }
 
+/*-------------------- workshop*/
+    .workshop{
+        text-align: left;
+        margin-left: 0;
+        margin-right: 25px;
+    }
+
+    .history{
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    img.resposive-history{
+        width: 50%;
+    }
+/*-------------------- contact*/
     .email-form{
         margin-left: 12px;
         margin-right: 12px;
     }
-
+/*-------------------- footer*/
     #footer-row{
         text-align: center;
     }
@@ -485,11 +502,19 @@ footer p{
 }    
  
 @media screen and (max-width:800px){
+/*-------------------- index*/
     .main-home p{
         padding-left: 25px;
         padding-right: 25px;
     }
+/*-------------------- workshop*/
+    .workshop{
+    text-align: left;
+    margin-left: 0;
+    margin-right: 35px;
+    }
 
+/*-------------------- footer*/
     #footer-row{
         text-align: center;
     }
