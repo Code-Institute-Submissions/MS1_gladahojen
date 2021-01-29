@@ -265,6 +265,11 @@ p.motor{
 
 /*--------------------Main section Resell*/
 
+
+h3.resell{
+    color: #ffad42;
+
+}
 .resell-row{
    padding-top: 20px;
    padding-left: 50px;
@@ -461,7 +466,9 @@ footer p{
 }
 
 
-@media screen and (max-width:600px){
+/*-----------------------------Media Queries for Smartphone*/
+
+@media screen and (max-width:576px){
 /*-------------------- index*/
     .main-home p{
         padding-left: 12px;
@@ -475,14 +482,48 @@ footer p{
         margin-right: 25px;
     }
 
+    .main-workshop{
+        padding-top: 30px;
+    }
+
     .history{
         text-align: left;
         margin-left: 15px;
     }
 
-    img.resposive-history{
-        width: 50%;
+/*-------------------- motorcycle*/
+    .motor{
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 0px;
     }
+
+    .main-motor{
+        padding-top: 30px;
+    }
+
+    div .aside-motor img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container{
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    
+    }
+
+/*-------------------- reseller*/
+    .main-second-resell{
+        padding-top: 30px;
+    }
+
+/*-------------------- rider*/
+
+
+
 /*-------------------- contact*/
     .email-form{
         margin-left: 12px;
@@ -501,7 +542,9 @@ footer p{
     }
 }    
  
-@media screen and (max-width:800px){
+/*-----------------------------Media Queries for Tablet*/
+
+@media screen and (max-width:768px){
 /*-------------------- index*/
     .main-home p{
         padding-left: 25px;
@@ -509,11 +552,82 @@ footer p{
     }
 /*-------------------- workshop*/
     .workshop{
-    text-align: left;
-    margin-left: 0;
-    margin-right: 35px;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 35px;
+        padding-top: 0;
+        }
+
+    .main-workshop{
+        padding-top: 30px;
     }
 
+/*-------------------- motorcycle*/
+    .motor{
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 0px;
+        }
+
+    .main-motor{
+        padding-top: 30px;
+    }
+
+    h3.motor{
+        margin-left: 70px;
+    }
+
+    div .aside-motor img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container{
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+   /* Don't add this here! margin-left: 50px;
+    margin-right: 50px;*/
+    }
+
+    .product-list{
+        padding-left: 25px;
+    }
+    /*-------------------- reseller*/
+    .main-second-resell{
+        padding-top: 30px;
+    }
+
+    .main-second-resell h3{
+        text-align: center;
+    }
+
+    .resell-row{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+/*-------------------- rider*/
+    .rider{
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 25px;
+        padding-top: 0px;
+    }
+
+    .main-rider{
+        padding-top: 30px;
+    }
+
+    h3.rider{
+        margin-left: 70px;
+    }
+
+    div .rider-col img{
+        width: 100%;
+        object-fit: contain;
+    }
 /*-------------------- footer*/
     #footer-row{
         text-align: center;
