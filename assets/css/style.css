@@ -484,6 +484,7 @@ footer p{
 
     .main-workshop{
         padding-top: 30px;
+        background-position-x: center;
     }
 
     .history{
@@ -501,6 +502,11 @@ footer p{
 
     .main-motor{
         padding-top: 30px;
+    }
+
+    h3.motor{
+        margin-left: 25px;
+        padding-left: 0px;
     }
 
     div .aside-motor img{
