@@ -71,14 +71,11 @@
 } 
 
 
-
 /*-------------------- Image carousel*/
 
 #carousel-header{
     background-color: #6d6d6d; 
 }
-
-
 
 /*-------------------- Main section Index*/
 
@@ -92,6 +89,11 @@
 .main-second{
     background-color: #585858;
     
+}
+
+.img-fluid{
+    height: auto; 
+    width: 60%;
 }
 
 h1{
@@ -140,7 +142,7 @@ p{
 
 
 /*-------------------- Main section Workshop*/
-/* make background-image responsive to fit on mobile*/
+/* make background-image responsive to fit on mobile. Done*/
 .main-workshop{    
     background: url(/assets/images/workshop-background.jpg) no-repeat bottom left fixed; 
     -webkit-background-size: cover;
@@ -223,6 +225,7 @@ p.history{
 
 .main-map {   
     text-align: center;
+    padding-bottom: 0px;
 }
 
 
@@ -489,7 +492,14 @@ footer p{
 
     .history{
         text-align: left;
-        margin-left: 15px;
+        margin-left: 0px;
+       
+    }
+
+    p .history {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
     }
 
 /*-------------------- motorcycle*/
@@ -568,6 +578,11 @@ footer p{
         padding-top: 30px;
     }
 
+    div .aside-history img{
+        width: 100%;
+        object-fit: cover;
+    }
+
 /*-------------------- motorcycle*/
     .motor{
         text-align: left;
@@ -630,9 +645,9 @@ footer p{
         margin-left: 70px;
     }
 
-    div .rider-col img{
+    div .aside-rider img{
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
     }
 /*-------------------- footer*/
     #footer-row{
