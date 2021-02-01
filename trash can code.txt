@@ -95,6 +95,9 @@ footer a i:hover{
 
 
 desktop
+p.main-home{
+    padding-left:40px;
+}
 
 
 tablet

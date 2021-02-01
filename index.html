@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HEM | Glada Hojen</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/2ac2e215df.js" crossorigin="anonymous"></script>
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HEM | Glada Hojen</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/2ac2e215df.js" crossorigin="anonymous"></script>
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+    </head>
 
-    
-</head>
-
-<body>
-    <header>
-<!--Fix underline animation so that it works on all pages and on dropdown-->
-        <!--Bootstrap navbar with dropdown-->
-        <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-top">
-            <a class="navbar-brand" href="https://gladahojen.se/"> 
-                <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo"> <!--logo is linked to current website for reference-->
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <i class="fas fa-bars"></i>
-                </span></button>
+    <body>
+        <header>
+            <!--Fix underline animation so that it works on all pages and on dropdown-->
+            <!--Bootstrap navbar with dropdown-->
+            <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-top">
+                <a class="navbar-brand" href="https://gladahojen.se/">
+                    <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo" />
+                    <!--logo is linked to current website for reference-->
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
@@ -32,98 +32,95 @@
                         <li class="nav-item">
                             <a class="nav-link underline" href="workshop_about.html">Verkstad / Om</a>
                         </li>
-    <!--Dropdown arrow works but doesn't show because of underline animation. Add some kind of "active" value..?-->
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Butik
+                        <!--Dropdown arrow works but doesn't show because of underline animation. Add some kind of "active" value..?-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Butik
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="motorcyle.html">Motorcykel</a>
-                            <a class="dropdown-item" href="rider.html">Förare</a>
+                                <a class="dropdown-item" href="motorcyle.html">Motorcykel</a>
+                                <a class="dropdown-item" href="rider.html">Förare</a>
                             </div>
-                        </li> 
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link underline" href="contact.html">Kontakt <span class="sr-only"></span>
-                            </a>
+                            <a class="nav-link underline" href="contact.html">Kontakt <span class="sr-only"></span> </a>
                         </li>
                     </ul>
                 </div>
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <section>
-<!--Images changing sizes need to be fixed. Done-->
-        <!-- Carousel images / Bootstrap carousel-->
-        <div id="carousel-header" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/images/carousel-image01.jpg" class="d-block w-100" alt="Entrence and a motorcyle">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/carousel-image02.jpg" class="d-block w-100" alt="A tool box">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/carousel-image03.jpg" class="d-block w-100" alt="A motorcycle at the entrence">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/carousel-image04.jpg" class="d-block w-100" alt="Motorcycle tires">
+        <section>
+            <!--Images changing sizes need to be fixed. Done-->
+            <!-- Carousel images / Bootstrap carousel-->
+            <div id="carousel-header" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/carousel-image01.jpg" class="d-block w-100" alt="Entrence and a motorcyle" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/carousel-image02.jpg" class="d-block w-100" alt="A tool box" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/carousel-image03.jpg" class="d-block w-100" alt="A motorcycle at the entrence" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/carousel-image04.jpg" class="d-block w-100" alt="Motorcycle tires" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="main main-home">
-        <!-- Welcome text -->
-        <h1 class="uppercase">Glada Hojen</h1>
-        <h3>- får din bike att må bra!</h3>
-<!--Code from Stackowerflow to resize the image-->
-        <div class="container"> 
-            <img src="./assets/images/home-image.jpg" alt="A motorcycle at the entrence" class="img-fluid">
-        </div>
-        
-        <p>
-            Hos Glada Hojen finner du MC-verkstad, grossistfirma och butik under samma tak.
-            Hit är hojar av de flesta märken välkomna, och de produkter som används
-            i verkstan är också de du finner på hyllan i butiken.<br>
-            När du lämnar in din ögonsten hos Glada Hojen kan du vara säker på att du får
-            erfarenhet, produkter av bra kvalité och ett trevligt bemötande!
-            Välkommen in med din bike!    
-        </p>
-        <div class="babes">
-            <p>Pssst... Är du medlem i <strong><a href="https://www.facebook.com/groups/bikebabesstockholm/" target="_blank">Bike Babes Stockholm</a></strong>..? Då har du 10% rabatt!</p>
-        </div>
-    </section>
+        <section class="main main-home">
+            <!-- Welcome text -->
+            <h1 class="uppercase">Glada Hojen</h1>
+            <h3>- får din bike att må bra!</h3>
+            <!--Code from Stackowerflow to resize the image-->
+            <div class="container">
+                <img src="./assets/images/home-image.jpg" alt="A motorcycle at the entrence" class="img-fluid" />
+            </div>
 
-<!--Need to make footer responsive. Done-->
-    <footer> <!--Bootstrap layouts for columns-->
-       <div class="container">
-            <div class="row" id="footer-row">
-                <div class="col-sm">
+            <p>
+                Hos Glada Hojen finner du MC-verkstad, grossistfirma och butik under samma tak. Hit är hojar av de flesta märken välkomna, och de produkter som används i verkstan är också de du finner på hyllan i butiken.<br />
+                När du lämnar in din ögonsten hos Glada Hojen kan du vara säker på att du får erfarenhet, produkter av bra kvalité och ett trevligt bemötande! Välkommen in med din bike!
+            </p>
+            <div class="babes">
+                <p>
+                    Pssst... Är du medlem i <strong><a href="https://www.facebook.com/groups/bikebabesstockholm/" target="_blank">Bike Babes Stockholm</a></strong>..? Då har du 10% rabatt!
+                </p>
+            </div>
+        </section>
+
+        <!--Need to make footer responsive. Done-->
+        <footer>
+            <!--Bootstrap layouts for columns-->
+            <div class="container">
+                <div class="row" id="footer-row">
+                    <div class="col-sm">
                         <h6><strong>Adress:</strong></h6>
                         <p>Vendelsömalmsvägen 94</p>
                         <p>136 69 Vendelsö</p>
-                </div>  
-                <div class="col-sm">
-                        <h6><strong>Telefon:</strong></h6> 
+                    </div>
+                    <div class="col-sm">
+                        <h6><strong>Telefon:</strong></h6>
                         <p>08-500 779 99</p>
-                </div> 
-                
+                    </div>
+
                     <!-- Social media icons -->
-                <div class="col-sm">    
-                    <a href="https://www.facebook.com/Gladahojen/photos/?ref=page_internal" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="https://www.instagram.com/gladahojen/?hl=sv" target="_blank">
-                        <i class="fab fa-instagram-square"></i>
-                    </a>
+                    <div class="col-sm">
+                        <a href="https://www.facebook.com/Gladahojen/photos/?ref=page_internal" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.instagram.com/gladahojen/?hl=sv" target="_blank">
+                            <i class="fab fa-instagram-square"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>    
-        </div>
-    </footer>
+            </div>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
 </html>
