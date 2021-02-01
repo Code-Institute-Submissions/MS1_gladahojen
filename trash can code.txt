@@ -91,3 +91,16 @@ footer a i:hover{
         width: 30% ;
     } 
 }
+
+
+
+desktop
+
+
+tablet
+
+
+smartphone
+
+
+
