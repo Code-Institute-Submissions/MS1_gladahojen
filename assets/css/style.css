@@ -154,7 +154,7 @@ p{
 /*-------------------- Main section Workshop*/
 /* make background-image responsive to fit on mobile. Done*/
 .main-workshop{    
-    background: url(/assets/images/workshop-background.jpg) no-repeat bottom left fixed; 
+    background: url(../images/workshop-background.jpg) no-repeat bottom left fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -520,7 +520,7 @@ footer p{
         margin-right: 0;
         padding-top: 0;
         }
-        
+
     h3.workshop{
         margin-left: 0;
     }
