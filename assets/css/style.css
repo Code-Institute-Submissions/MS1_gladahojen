@@ -170,15 +170,13 @@ p{
 }
 
 h3.workshop{
-    color: #424242;
-    font-weight: 600;
+    color: #ffad42;
     padding-left: 50px;
     margin-left: 40px;
 }
 
 p.workshop{
-    color: #1b1b1b;
-    font-weight: 600;
+    color: #fafafa;    
     padding-left: 50px;
     padding-right: 60px;
 
@@ -186,13 +184,11 @@ p.workshop{
 
 .list{
     font-family: 'Roboto', sans-serif;
-    color: #1b1b1b;
+    color: #fafafa;
     padding-left: 70px;
 }    
 
-.workshop-list{
-    font-weight: 600;
-}
+
 
 .opaque-overlay{
     position: absolute;
@@ -200,7 +196,7 @@ p.workshop{
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 173, 66, 0.8);
+    background-color: rgba(66, 66, 66, 0.75);
     z-index: -1;
 }
 
