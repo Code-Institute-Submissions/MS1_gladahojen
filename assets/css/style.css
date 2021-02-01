@@ -7,7 +7,7 @@
     color: #f57c00;
     font-family: 'Chakra Petch', sans-serif;
     margin-bottom: 0;
-    padding-left: 25px;
+    padding-left: 40px;
     text-transform: uppercase;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -80,7 +80,7 @@
 }
 
 .w-100{
-    height: 250px;
+    height: 400px;
     object-fit: cover;
 }
 /*-------------------- Main section Index*/
@@ -90,6 +90,16 @@
     text-align: center;
     padding-bottom: 20px;
     
+}
+
+.main-home{
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.main-home p{
+    padding-left:50px;
+    padding-right: 50px;
 }
 
 .main-second{
@@ -105,7 +115,12 @@
 h1{
     font-family: 'Chakra Petch', sans-serif;
     color: #f57c00;
-    padding-top: 30px
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+h1.uppercase{
+    padding-bottom: 0;
 }
 
 h3{
@@ -132,7 +147,6 @@ p{
     padding-bottom: 30px;
 
 }
-
 
 .babes{
     text-align: center;
@@ -188,8 +202,6 @@ p.workshop{
     padding-left: 70px;
 }    
 
-
-
 .opaque-overlay{
     position: absolute;
     bottom:0;
@@ -208,11 +220,6 @@ p.workshop{
 
 /*-------------------- Main section History*/
 
-#history-row{
-    background-color: #585858;
-    margin-right: 30px;   
-}
-
 .history{
     text-align: left;
     margin-left: 30px;
@@ -221,14 +228,17 @@ p.workshop{
 h3.history{
     color: #ffad42;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 p.history{
-    padding-left: 0px;
-    margin-right: 50px;
+    margin-right: 40px;
+    margin-left: 0px;
 }
 
+div .aside-history img{
+    padding-left: 50px;
+}
 
 /*-------------------- Main section Map*/
 
@@ -271,6 +281,7 @@ h3.motor{
 
 p.motor{
     margin-bottom: 0;
+    margin-left: 0px;
     padding-top: 0px;
 }
 
@@ -327,10 +338,18 @@ h3.resell{
     -o-transition: all 0.35s ease-in-out;
 }
 
+.button a{
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
 .button:hover{
-    color: #ffad42;
     background-color: #424242;
     border: 3px solid #f57c00;
+}
+
+.button a:hover{
+    color: #ffad42;
 }
 
 /* --------------- Might use later for individual styling
@@ -359,6 +378,7 @@ h3.rider{
 p.rider{
     padding-right: 25px;
     padding-top: 0px;
+    margin-left: 0px;
 }
 
 .rider a{
@@ -370,7 +390,9 @@ p.rider{
     color: #f57c00;
 }
 
-
+div .aside-rider img{
+    object-fit: contain;
+}
 
 /*--------------------Email form*/
 
@@ -385,8 +407,7 @@ p.rider{
 }
 
 h3.contact{
-    color: #424242;
-    font-weight: 600;
+    color: #ffad42;
 }
 
 .contact i{
@@ -459,7 +480,6 @@ footer{
     background-color: #424242; 
     color: #f57c00;
     font-family: 'Chakra Petch', sans-serif;
-    padding-bottom: 15px;
     padding-top: 10px;
 }
 
@@ -471,7 +491,7 @@ footer a i{
     color: #f57c00;
     margin-top: 15px;
     margin-left: 10px;
-    font-size: 25px;
+    font-size: 35px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -508,6 +528,10 @@ footer p{
     .main-home p{
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .img-fluid{
+        width: 75%;
     }
 /*-------------------- workshop*/
     .workshop{
@@ -556,12 +580,14 @@ footer p{
     }
 
     h3.motor{
-        margin-left: 70px;
+        margin-left: 0px;
+        padding-left: 50px;
     }
 
-    div .aside-motor img{
+    div .aside-history img{
         width: 100%;
         object-fit: cover;
+        padding-left: 0px;
     }
 
     .container{
@@ -569,7 +595,8 @@ footer p{
         padding-right: 0;
         padding-left: 0;
     /* Don't add this here! margin-left: 50px;
-        margin-right: 50px;*/
+        margin-right: 50px;
+        Fucks up footer*/
     }
 
     .product-list{
@@ -580,15 +607,19 @@ footer p{
         padding-top: 30px;
     }
 
-    .main-second-resell h3{
-        text-align: center;
+    h3.resell{
+        margin-left: 0px;
+        padding-left: 50px;
+        text-align: left;
     }
 
     .resell-row{
         padding-top: 20px;
-        padding-left: 0px;
+        padding-left: 20px;
         margin-left: 0px;
+        column-count: 1;
     }
+    
 
 /*-------------------- rider*/
     .rider{
@@ -603,7 +634,7 @@ footer p{
     }
 
     h3.rider{
-        margin-left: 70px;
+        margin-left: 0px;
     }
 
     div .aside-rider img{
@@ -621,11 +652,14 @@ footer p{
 
 @media screen and (max-width:576px){
 /*-------------------- index*/
-    p.main-home{
-        padding-left: 12px;
-        padding-right: 12px;
+    .main-home p{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
+    .img-fluid{
+        width: 80%;
+    }
 /*-------------------- workshop*/
     .workshop{
         text-align: left;
@@ -653,6 +687,9 @@ footer p{
         padding-bottom: 50px;
     } 
 
+    div .aside-history img{
+        padding-left: 0px;
+    }
 /*-------------------- motorcycle*/
     .motor{
     text-align: left;
@@ -667,8 +704,11 @@ footer p{
     }
 
     h3.motor{
-        margin-left: 25px;
-        padding-left: 0px;
+        padding-left: 30px;
+    }
+
+    p.motor{
+        padding-left: 30px;
     }
 
     div .aside-motor img{
@@ -690,19 +730,23 @@ footer p{
 
     h3.resell{
         margin-left: 0px;
-        padding-left: 0px;
+        padding-left: 30px;
     }
 
     .resell-row{
         padding-top: 20px;
-        padding-left: 15px;
+        padding-left: 0px;
         column-count: 1;
     }
 /*-------------------- rider*/
 
     h3.rider{
-        margin-left: 25px;
-        padding-left: 0px;
+        margin-left: 0;
+        padding-left: 40px;
+    }
+
+    p.rider{
+        padding-left: 40px;
     }
 
     .main-rider{
