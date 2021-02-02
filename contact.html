@@ -11,10 +11,11 @@
 
     <body>
         <header>
-            <!-- Navbar with logo / Boostrap navbar -->
+        <!--Bootstrap navbar with dropdown. Underline animation discared-->
             <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-top">
                 <a class="navbar-brand" href="https://gladahojen.se/">
                     <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo" />
+                    <!--logo is linked to current website for reference-->
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
@@ -48,7 +49,7 @@
         </header>
 
         <section>
-            <!-- Carousel images / Bootstrap carousel-->
+        <!-- Carousel images / Bootstrap carousel with added fading class-->
             <div id="carousel-header" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -66,9 +67,8 @@
                 </div>
             </div>
         </section>
-
+        <!-- Email form -->
         <section class="main main-contact">
-            <!-- Email form -->
             <div class="opaque-overlay">&nbsp;</div>
             <h3 class="uppercase contact">Skicka ett mail<i class="far fa-envelope"></i></h3>
             <form class="email-form" method="POST" action="#">
@@ -80,28 +80,24 @@
                 <input id="number" class="text-input" type="number" placeholder="Mobilnummer (frivilligt)" />
                 <label for="message">Ditt medelande</label>
                 <textarea id="message" class="text-input" placeholder="Ange gärna Märke, Modell och År på din hoj *"></textarea>
-                <!--Textarea inspired from Bootstrap-->
+                <!--Textarea from Bootstrap-->
                 <div class="button-holder">
-                    <input class="send-button uppercase" type="submit" value="Sänd" />
-                    <!-- Maybe add a logo to the right of the button -->
+                    <input class="send-button uppercase" type="submit" value="Sänd"/>
                 </div>
             </form>
         </section>
+        
         <section class="main main-map">
-            <!-- Find us-->
             <!--h3 needs to be moved to center. Done-->
             <h3 class="uppercase map">Hitta hit <i class="fas fa-map-marker-alt"></i></h3>
             <p class="open">Öppet Mån - Fre 8.00 - 17.00</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8174.143159714683!2d18.1787992!3d59.1903398!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f5ec10b8446761d!2sGlada%20hojen!5e0!3m2!1ssv!2sse!4v1611082944174!5m2!1ssv!2sse"
-                style="height: 400px; width: 100%; margin-left: 0;"
-            >
-                <p>Your browser does not support iframes!</p>
+                style="height: 400px; width: 100%; margin-left: 0;"><p>Your browser does not support iframes!</p>
             </iframe>
         </section>
-
+        <!--Bootstrap layouts for columns-->
         <footer>
-            <!--Bootstrap layouts for columns-->
             <div class="container">
                 <div class="row" id="footer-row">
                     <div class="col-sm">

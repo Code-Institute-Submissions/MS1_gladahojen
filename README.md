@@ -1,44 +1,69 @@
-# My 1st milestone project
-## Building a new webpage to Glada Hojen motorcycle workshop
-
-[Glada Hojen](https://gladahojen.se/) current webpage
+# Milestone project 1 - Glada Hojen
+### Goal: Build a new webpage to [Glada Hojen](https://gladahojen.se/) (current webpage) motorcycle workshop.
+#### (For refrence I have also added a link to the current webpage in the navbar logo instead of linking it back to index.html.)
 
 My version (http--link--)
 
-        -----------mockup img goes her--------
+[Glada Hojen mockup](https://photos.app.goo.gl/DLUQdvRh9YQzbDCb7)
 
-........
-User Experience (UX)
+## User Experience (UX)
 
-    First Time Visitor Goals
-    Returning Visitor Goals
+* First Time Visitor Goals
+    * As a first time visitor I want to know what kind of services they offer.
+    * As a first time visitor I want to be able to navigate the site in a easy way.
+    * As a first time visitor I want to know where the workshop is located and how to get in touch.
+    * As a first time visitor I want to know what kind of experince the mechanic have.
+* Returning Visitor Goals
+    * As a returning visitor I want to know what parts I can order for my motorcycle.
+    * As a returning visitor I want to find social media links so I can get to know the workshop better.
+    * As a returning visitor I want to be able to contact the workshop in a easy way.
 
-### ___ *STRATEGY* ___
+**Who is it for?**
+Current and new customers and bike riders.
 
-Who is it for? 
-    Current and new customers and bike riders.
-What is it?
-    A webpage that describes the different services and products provided.
-Why am I building it?
-    The current webpage isn't really good or up to date, and the workshop's web presence today is
-    instagram and facebook, but customers are mostly around their 40's and up. My assumtpion
-    is that they usually don't hang out as much on social media.
+**What is it?** 
+A webpage that describes the different services and products provided.
+
+**Why am I building it?**
+The current webpage isn't really good or up to date, and the workshop's web presence today is
+instagram and facebook, but customers are mostly around their 40's and up. My assumtpion
+is that they usually don't hang out as much on social media.
+
+## Design
+
+Images, text, lists, a form, external links
+
+**Color:** 
+* Gray 
+* Oranges
+
+**Fonts:**
+* Chakra Petch, sans-serif
+* Roboto, sans-serif
+
+**Images:**
+All images are either my own or provided by Glada Hojen.
+They are edited in **Gimp** to black and white to follow the gray theme.
+Background image in contact.html is taken from : https://unsplash.com/photos/v6uiP2MD6vs
 
 
-..........
-Design
-### ___ *SCOPE* ___
+## Wireframes
+Desktop:
+[Index](https://photos.app.goo.gl/ZnuYT3W1KZNcp9HT6)
+[Workshop](https://photos.app.goo.gl/TAHpGiwGp4nJ83NKA)
+[Motorcyle](https://photos.app.goo.gl/TUTmegNW8cFPZfAn8)
+[Rider](https://photos.app.goo.gl/aDZ3U8jNHidXgCgK9)
+[Contact](https://photos.app.goo.gl/qYi1C6ZnGCSDGyG78)
 
-What does the content look like?
-    Images, text, lists, a form, external links
+Smartphone: 
+[Index](https://photos.app.goo.gl/M9U8SNhhVyx5xVXD7)
+[Workshop](https://photos.app.goo.gl/KVswwAns8CraeJRd6)
+[Motorcyle](https://photos.app.goo.gl/sCvV6yzWUdax5jqD6)
+[Rider](https://photos.app.goo.gl/ev7XjbKEAnKXbJ8C8)
+[Contact](https://photos.app.goo.gl/8jyh12pczwNWhVYK8)
 
 
-.........
-Wireframes
-    destop
-    smartphone
-### ___ *STRUCTURE* ___
-
+## Structure
 Non-linear
 
     - Home page
@@ -48,74 +73,63 @@ Non-linear
         Rider
     - Contact (email form)
 
+## Navigation design: 
+A fixed navbar at the top with a dropdown menu under the **BUTIK** (store) section, 
+where the user can brows to motorcycle parts or riding gear. A footer with adress, 
+phone number and social media links at the bottom. Both on evey page of the site.
+I used a navbar from [Boostrap](https://getbootstrap.com/docs/5.0/components/navbar/).
+When viewed on a mobie device the menu changes into an burger menu.
 
+### Hierachy information
+Navbar left to right:
 
-### ___ *SKELETON* ___
+* **Home** - A short describtion of the workshop and what's avaible.
 
-Navigation design: 
-    A navbar at the top with a dropdown menu, and a footer with adress and phone number
-    at the bottom. Both on evey page of the site.
-    I used a navbar from Boostrap.
+* **Workshop / About** - I choose the put the workshop information first because that's whats
+people probably wants to know first. After that they can learn more about the company background
+and experince.
 
-Hierachy information:
-    Navbar left to right:
-    Home - a short describtion of the workshop
-    Workshop / About - I choose the put the workshop information first because that's whats
-        people probably wants to know first. After that they can learn more about the
-        company background.
-    Shop (dropdown menu) 
-        Motorcyle - a short describtion of parts and brands that are used. And a reseller
+* **Shop (dropdown menu)** 
+    * Motorcyle - A short describtion of parts and brands that are used. And a reseller
         sub section for Royal Enfield and ZARD Exhaust system.
-        Clothes - a short describtion of what's avaible in store or for order.
-    Contact - Email form to get in touch.
 
+    * Clothes - A short describtion of what's avaible in store or for order.
 
-### ___ *SURFACE* ___
+* **Contact** - Email form to get in touch, ans a sub section with opening hours and a location map
 
-*Color: 
-    Grays 
-    Oranges
-*Fonts:
-    Font-family: Chakra Petch, sans-serif and Roboto, sans-serif
-*Order of apperance
-*Images:
-    All images are either my own, provided by or taken with permisson from Glada Hojen.
-    They are edited in Gimp to black and white to follow the gray theme.
-    
-    https://unsplash.com/photos/v6uiP2MD6vs
+### Features
+* Responsive on desktop, tablet and smartphone
+* Email form 
 
-.........
-Features
-    responsive on all devices
-
-............
-Technologies Used
-
-### ___ Technology ___
-
+### Technologies Used
 #### Languages
-HTML5
-CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 #### Frameworks, Libraries, Programs
-Balsamic Images
-Gimp
-Boostrap v.5.0
-Google Fonts
-Font awsome
-Github
-Gitpod
+* [Balsamic Images](https://balsamiq.com)
+ was used to create wireframes in the beginning of the project
+* [Gimp](https://www.gimp.org/)
+was used to edit photos to black and white.
+* [Google Fonts](https://fonts.google.com/)
+was used to import the fonts mentioned above in the project.
+* [Font Awsome](https://fontawesome.com/)
+was used to import the icons used in this project.
+* [Boostrap v.5.0](https://getbootstrap.com/)
+was used to design some of the styling and for the responsive features
+* [Gitpod](https://gitpod.io/)
+was used for coding the project
+* [Github](https://github.com/)
+after being pushed in Gitpod the project was saved and stored on GitHub.
 
+## Testing
 
-
-............
-Testing
-
-    W3C Markup Validator - Results
-    W3C CSS Validator - Results
+* [W3C Markup Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 Testing User Stories from User Experience (UX) Section
     First Time Visitor Goals
     Returning Visitor Goals
+
 ### ___ BUGGS ___
 
 Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discard?

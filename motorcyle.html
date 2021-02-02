@@ -10,10 +10,11 @@
 </head>
 <body>
     <header>
-        <!--Bootstrap navbar with dropdown-->
+        <!--Bootstrap navbar with dropdown. Underline animation discared-->
         <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-top">
             <a class="navbar-brand" href="https://gladahojen.se/">
                 <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo">
+                <!--logo is linked to current website for reference-->
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -47,7 +48,7 @@
     </header>
 
     <section>
-        <!-- Carousel images / Bootstrap carousel-->
+        <!-- Carousel images / Bootstrap carousel with added fading class-->
         <div id="carousel-header" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -65,9 +66,8 @@
             </div>
         </div>
     </section>
-    
+    <!-- Motorcycle section -->
     <section class="main main-motor"> 
-        <!-- Motorcycle section -->
         <h3 class="uppercase motor">Motorcykel <i class="fas fa-motorcycle"></i></h3>
 <!--Move image to the right of text, make it resposive so that it moves underneth the text. Done-->
         <div class="container">
@@ -96,15 +96,14 @@
                     </p> 
                 </div>
                 <div class="col-sm aside-motor">
-<!--Would like image to take full width when viewed on mobile and tablet-->
+<!--Would like image to take full width when viewed on mobile and tablet. Done-->
                     <img src="./assets/images/motorcycle-image.jpg" alt="A motorcycle sidebag" style="height:300px; " id="sidebag">
                 </div>
             </div>     
         </div>    
     </section>
-
+    <!-- Reseller section (new backgrund color) -->
     <section class="main-second main-second-resell"> 
-        <!-- Reseller section (new backgrund color) -->
         <h3 class="uppercase resell">Återförsäljare <i class="fas fa-star"></i></h3>
             <div class="row resell-row">
                 <!-- Royal Enfield --> 
@@ -123,7 +122,7 @@
 
                 <!-- ZARD exhaust system --> 
                 <div class="col">
-<!--Make it resposive from two to one column-->
+                <!--Make it resposive from two to one column. Done-->
                     <div class="card" style="width: 20rem;">
                     <img src="./assets/images/reseller-image02.jpg" class="card-img-top" alt="Zard exhaust system">
                         <div class="card-body">
@@ -137,8 +136,9 @@
                 </div>
             </div>
     </section>
-    
-    <footer> <!--Bootstrap layouts for columns-->
+    <!--Need to make footer responsive. Done-->
+    <footer> 
+        <!--Bootstrap layouts for columns-->
        <div class="container">
             <div class="row" id="footer-row">
                 <div class="col-sm">

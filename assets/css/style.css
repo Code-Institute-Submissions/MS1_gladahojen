@@ -45,7 +45,7 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-/*------- Underline animation */
+/*------- Underline animation. Discared */
 /*
 .underline{
   display: inline;
@@ -83,13 +83,14 @@
     height: 400px;
     object-fit: cover;
 }
+
+
 /*-------------------- Main section Index*/
 
 .main{
     background-color: #6d6d6d;  
     text-align: center;
     padding-bottom: 20px;
-    
 }
 
 .main-home{
@@ -103,8 +104,7 @@
 }
 
 .main-second{
-    background-color: #585858;
-    
+    background-color: #585858;   
 }
 
 .img-fluid{
@@ -164,7 +164,6 @@ p{
 }
 
 
-
 /*-------------------- Main section Workshop*/
 /* make background-image responsive to fit on mobile. Done*/
 .main-workshop{    
@@ -193,7 +192,6 @@ p.workshop{
     color: #fafafa;    
     padding-left: 50px;
     padding-right: 60px;
-
 }
 
 .list{
@@ -217,7 +215,6 @@ p.workshop{
 }
 
 
-
 /*-------------------- Main section History*/
 
 .history{
@@ -239,6 +236,7 @@ p.history{
 div .aside-history img{
     padding-left: 50px;
 }
+
 
 /*--------------------Main section Motorcycle*/
 
@@ -293,14 +291,12 @@ h3.resell{
     margin-left: 50px;
 }
 
-
 .card{
     margin-left: 30px;
     margin-bottom: 30px;
     background-color: #fafafa;
     border: none;
 }
-
 
 .card-title{
     font-family: 'Chakra Petch', sans-serif;
@@ -344,13 +340,6 @@ h3.resell{
     color: #ffad42;
 }
 
-/* --------------- Might use later for individual styling
-#royal-card{
-}
-#zard-card{
-}
--------*/
-
 
 /*--------------------Main section Rider */
 
@@ -385,6 +374,7 @@ p.rider{
 div .aside-rider img{
     object-fit: contain;
 }
+
 
 /*--------------------Email form*/
 
@@ -464,6 +454,7 @@ h3.contact{
     display: flex;
 }
 
+
 /*-------------------- Main section Map*/
 
 h3.map{
@@ -526,7 +517,7 @@ footer p{
 }
 
   
- 
+
 /*-----------------------------Media Queries for Tablet*/
 
 @media screen and (max-width:768px){
@@ -600,14 +591,16 @@ footer p{
         padding-bottom: 0;
         padding-right: 0;
         padding-left: 0;
-    /* Don't add this here! margin-left: 50px;
+    /* Don't add this here! 
+        margin-left: 50px;
         margin-right: 50px;
-        Fucks up footer*/
+        Messes up footer */
     }
 
     .product-list{
         padding-left: 25px;
     }
+
     /*-------------------- reseller*/
     .main-second-resell{
         padding-top: 30px;
@@ -625,7 +618,6 @@ footer p{
         margin-left: 0px;
         column-count: 1;
     }
-    
 
 /*-------------------- rider*/
     .rider{
@@ -647,6 +639,7 @@ footer p{
         width: 100%;
         object-fit: cover;
     }
+
 /*-------------------- footer*/
     #footer-row{
         text-align: center;
@@ -726,7 +719,6 @@ footer p{
     padding-bottom: 0;
     padding-right: 0;
     padding-left: 0;
-    
     }
 
 /*-------------------- reseller*/
@@ -758,11 +750,13 @@ footer p{
     .main-rider{
         padding-bottom: 0px;
     }
+    
 /*-------------------- contact*/
     .email-form{
         margin-left: 12px;
         margin-right: 12px;
     }
+
 /*-------------------- footer*/
     #footer-row{
         text-align: center;
