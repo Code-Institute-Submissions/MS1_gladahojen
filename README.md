@@ -2,7 +2,7 @@
 ### Goal: Build a new webpage to [Glada Hojen](https://gladahojen.se/) (current webpage) motorcycle workshop.
 #### (For refrence I have also added a link to the current webpage in the navbar logo instead of linking it back to index.html.)
 
-My version (http--link--)
+**[My version](https://mjau83.github.io/MS1_gladahojen/?fbclid=IwAR2RnCUgmlylK_fVtRZSxlSKZdpiTHcssyOuu2Z3wjswQJ4FooHudN7BB-M)**
 
 [Glada Hojen mockup](https://photos.app.goo.gl/DLUQdvRh9YQzbDCb7)
 
@@ -116,6 +116,14 @@ was used to import the fonts mentioned above in the project.
 was used to import the icons used in this project.
 * [Boostrap v.5.0](https://getbootstrap.com/)
 was used to design some of the styling and for the responsive features
+* [Stackoverflow](https://stackoverflow.com/)
+was used to design some of the styling
+* [Material.io](https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=42A5F5&secondary.color=7B1FA2)
+was used to make sure that color contrast was ok
+* [Am I Responsive](http://ami.responsivedesign.is/)
+was use to make the mockup
+* [Webformatter](https://webformatter.com/html)
+was used to beautify the code
 * [Gitpod](https://gitpod.io/)
 was used for coding the project
 * [Github](https://github.com/)
@@ -126,83 +134,154 @@ after being pushed in Gitpod the project was saved and stored on GitHub.
 * [W3C Markup Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-Testing User Stories from User Experience (UX) Section
-    First Time Visitor Goals
-    Returning Visitor Goals
+### Testing User Stories from User Experience (UX) Section
 
-### ___ BUGGS ___
+* **First Time Visitor Goals**
+    * As a first time visitor I want to know what kind of services they offer.
+        1. When entering the website the user is welcomed by a image slider that shows motorcycles, tools and tires.
+        2. The under the welcome image is a short paragraph text that describes what is kind of work and services
+        they do at the workshop.
 
-Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discard?
-    Code from: https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
+    * As a first time visitor I want to be able to navigate the site in a easy way.
+        1. When the user enters the site the navbar indicates that they are on the home page.
+        It changes if the user click on an other page.
+        2. The navbar is fixed and visable to the user even if they scroll down on the page.
+    
+    * As a first time visitor I want to know where the workshop is located and how to get in touch.
+        1. The adress is found in the footer on all pages.
+        2. The phone number is found in the footer on all pages.
+        3. On the Contact page the user can send a email using a form.
+        4. On the Contact page the user will find a map and opening hours underneath the email form.
+    
+    * As a first time visitor I want to know what kind of experince the mechanic have.
+        1. On the Workshop page the user can find an About section which describes the working history of the 
+        owner and mechanic.
 
-    Validation comes out ok.
-    Used Diffcheck to see if there was any differnce in the code. No errors.
-    Tried to comment out the <li> with a dropdown class to see if the dropdown was the issue. It wasn't.
-    Change the z-index value between (-2, -1, 1, 2). Still only worked on index.html.
-    After talking to Tutor Support it turned out that I was loading the CSS befor the Bootstrap on the
+* Returning Visitor Goals
+    * As a returning visitor I want to know what parts I can order for my motorcycle.
+        1. On the motorcycle page the user can find a short describtion and a list of examples of
+        various parts that are either in store or can be ordered.
+        2. On the motorcycle page the user can find links to different brands that are either in store or can be ordered.
+
+    * As a returning visitor I want to find social media links so I can get to know the workshop better.
+        1. Links to social media can be found in the footer on every page.
+
+    * As a returning visitor I want to be able to contact the workshop in a easy way.
+        1. The adress is found in the footer on all pages.
+        2. The phone number is found in the footer on all pages.
+        3. On the Contact page the user can send a email using a form.
+
+### Futher testing
+* The website was tested on Chrome and on Android
+* The links was tested to ensure that they worked probably.
+* The different inputs in the form was tested to ensure that they worked probably.
+* A lot of time was spent testing the resposive design for desktop, 
+tablet and smartphone as each section was coded.
+
+### Buggs
+
+* **Navbar** - Underline hover animation doesn't work properly on all pages. The dropdown arrow disappered, and the beginning of the
+underline is visable even when not hovering over BUTIK. Keep it or discard?
+Code from: https://stackoverflow.com/questions/40242378/underline-from-left-to-right-on-hover-in-and-out
+
+    1. Validation comes out ok.
+    2. Used Diffcheck to see if there was any differnce in the code. No errors.
+    3. Tried to comment out the < li > with a dropdown class to see if the dropdown was the issue. It wasn't.
+    4. Change the z-index value between (-2, -1, 1, 2). Still only worked on index.html.
+    5. After talking to Tutor Support it turned out that I was loading the CSS befor the Bootstrap on the
     other pages. After moving the CSS below it works on the other pages too. 
-
-    To get the animation to work on the dropdown I was adviced to try to target <li class="nav-item dropdown"> 
-    instead of the <a> tag with the .underline.
-    The dropdown arrow becomes visable but I don't get any underline animation or a dropdown menu. It is
+    6. To get the animation to work on the dropdown I was adviced to try to target < li class=" nav-item dropdown " > 
+    instead of the < a > tag with the .underline.
+    7. The dropdown arrow becomes visable but I don't get any underline animation or a dropdown menu. It is
     also moved out of place.
+    8. After tring to find answers on Goggle and Youtube without succes I decided to comment out the
+    code to discard this funtion.
 
-Carousel - Used Bootstrap to add a caarousel in the header. Wouldn't start.
-    Googled "how to create a bootstrap carousel". Both sites 
+* **Carousel** - Used Bootstrap to add a carousel in the header. Wouldn't start.
+    
+    1. Googled "how to create a bootstrap carousel". Both sites 
     https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php
     and
     https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
-    said that the code used to activate the carousel is *data-ride="carousel"*
-    Change the code. Carousel works.
+    said that the code used to activate the carousel is *data-ride="carousel"* The original code
+    was data-bs-ride. Deleted the -bs-. Carousel works.
 
-    Even though all photos in the carousel have the same height, an extra space is created 
-    underneath the image befor tires_bw.jpg and tools_bw.jpg. This makes the scetion below move 
-    up and down when it changes image. 
-    Manage to change the background-color, but haven't figured
-    out how to get rid of the extra space. Maybe a "marign-bottom"...?
-    Added the w-100 class to css and set the height to 250px and object-fit to cover. Now the dead 
+Even though all photos in the carousel have the same height, an extra space is created 
+underneath the image befor tires_bw.jpg and tools_bw.jpg. This makes the section below move 
+up and down when it changes image. 
+    1. Manage to change the background-color, but haven't figured out how to get rid of the extra space. Maybe a "marign-bottom"...?
+    2. Added the w-100 class to css and set the height to 400px and object-fit to cover. Now the dead 
     space under is gone on all devices.
 
-Image sizeing - Googled "change image size css"
+**Image sizeing** - the welcome image in index.html  
+    1. Googled "change image size css"
     https://stackoverflow.com/questions/15685666/changing-image-sizes-proportionally-using-css    
 
-Opaque-overlay - The overlay in workshop_about.html workshop section overlays the paragraph text 
-    instead of only the image. Used the Updating Our Callout-video as a guide, but it didn't came
+**Opaque-overlay** - The overlay in workshop_about.html workshop section overlays the paragraph text 
+instead of only the image. 
+    1. Used the Updating Our Callout-video as a guide, but it didn't came
     out right.
-    Tried adding z-index with different positive vaules, but still the same.
-    Asked Tutor Support and got the suggestion to try with negative values.
-    But then the opaque overlay disappered compleatly.
-    After adding a z-index: -2; to .main-workshop, then adding z-index: -1; it worked.
+    2. Tried adding z-index with different positive vaules, but still the same.
+    3. Asked Tutor Support and got the suggestion to try with negative values.But then the opaque overlay disappered compleatly.
+    4. After adding a z-index: -2; to .main-workshop, then adding z-index: -1; it worked.
 
-Resell .card - The .cards are stacked but not centered when viewed on mobile or tablet.
-    I have tried changing the padding and margins. But it didn't help.
-    I tried to use display:flex on both .resell-row and .col, nothing happens.
-    And margin:auto on .resell-row just moves the card slightly to the right, but it was far from centered.
-    After rewatching the the video about Responsive Gallery and used column-count: 1; and changed the
+**Resell .card** - The .cards are stacked but not centered when viewed on mobile or tablet. 
+    1. I have tried changing the padding and margins. But it didn't help.
+    2. I tried to use display:flex on both .resell-row and .col, nothing happens.
+    3. After asking on Slack I got the advice from Zac Warner to try margin:auto on .resell-row, but it just moved the card 
+    slightly to the right, but it was far from centered.
+    4. After rewatching the the video about Responsive Gallery and used column-count: 1; and changed the
     padding in @media för mobile I got it centered.
 
-A mysterious white space  - ...that isn't a margin along the right side. The space creaties a scrollbar at the
-    bottom in the motorcycle.html and on a smartphone all pages are to wide.
-    I tried experimenting with the right margin and padding on different sections, and googleing but came 
+**A mysterious white space**  - ...that isn't a margin along the right side. The space creaties a scrollbar at the
+bottom in the motorcycle.html and on a smartphone all pages are to wide.
+    1. I tried experimenting with the right margin and padding on different sections, and googleing but came 
     out empty handed.
-    After some time of frustration, and just clicking through every part of motorcycle.html in develpoer tools and
+    2. After some time of frustration, and just clicking through every part of motorcycle.html in develpoer tools and
     reading all the code, I found that Bootstrap seems to add a gutter to the row class. Which isn't visable in the
     HTML. So after setting  --bs-gutter-x to 0 the white space disappered.
 
-Footer - responsive design won't work. Tried targeting different classes. 
-    Asked on Slack, and got the advice from Richard Ash to try wrapping three "col-sm" divs inside a "row".
+**Footer** - responsive design won't work. 
+    1. Tried targeting different classes. 
+    2. Asked on Slack, and got the advice from Richard Ash to try wrapping three "col-sm" divs inside a "row".
     still didn't work as I wanted.
-    Contacted Tutor Support and got this link https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp
+    3. Contacted Tutor Support and got this link https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp
     After rreading through it I realized that I had added a mix of different classes.
-    So I started fresh on the footer and redid the classes. 
-    Now the footer is responsive. 
-    This also made me realize how to make the main content resposive on the other pages. 
-
-.............
-Deployment
-    GitHub Pages
+    4. So I started fresh on the footer and redid the classes. 
+    Now the footer is responsive. This also made me realize how to make the main content resposive on the other pages. 
 
 
-### ___ CREDITS ___
+## Deployment
 
-Christoffer Nicklasson
+### GitHub Pages
+This project was deployed using Github pages.
+
+1. Go to [Github](https://github.com/)
+2. Log in and find the repository
+3. Find the "Settings" (with a gear icon)
+4. Scroll down on the page until you find the "Github Pages" section
+5. Under "Source" you'll find a dropdown which is set to "none"
+6. Change it to "Master"
+7. The page refresh on its own
+8. Scroll back down to "Github Pages" 
+9. A green alert box will now tell you that your site been published and provide you a link to the site.
+
+
+## CREDITS 
+
+**Content**
+
+The text in the history section and in index.html was inspired from the [current website](https://gladahojen.se/)
+
+**Media**
+* Some of the images on the site was provided by Glada Hojen.
+* The rest of the images are my own.
+
+**Acknowledgements**
+
+* Tutor Support at Code Institute
+* My Mentor Akshat Garg, for giving feedback and advice
+* Helpful people on Slack
+* My friend Christoffer Nicklasson, for helping me read through the code
+* My friend and employer Magnus Glad owner of Glada Hojen, for giving me material and giving med the 
+consent to build an alternative website.

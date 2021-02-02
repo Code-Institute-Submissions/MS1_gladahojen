@@ -729,12 +729,18 @@ footer p{
     h3.resell{
         margin-left: 0px;
         padding-left: 30px;
+        text-align: center;
     }
 
     .resell-row{
         padding-top: 20px;
         padding-left: 0px;
         column-count: 1;
+        margin: auto;
+    }
+
+    .card{
+        margin-left: 20px;
     }
 /*-------------------- rider*/
 
