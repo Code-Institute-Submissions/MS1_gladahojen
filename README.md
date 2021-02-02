@@ -5,6 +5,14 @@
 
 My version (http--link--)
 
+        -----------mockup img goes her--------
+
+........
+User Experience (UX)
+
+    First Time Visitor Goals
+    Returning Visitor Goals
+
 ### ___ *STRATEGY* ___
 
 Who is it for? 
@@ -17,13 +25,18 @@ Why am I building it?
     is that they usually don't hang out as much on social media.
 
 
+..........
+Design
 ### ___ *SCOPE* ___
 
 What does the content look like?
     Images, text, lists, a form, external links
 
 
-
+.........
+Wireframes
+    destop
+    smartphone
 ### ___ *STRUCTURE* ___
 
 Non-linear
@@ -71,6 +84,12 @@ Hierachy information:
     
     https://unsplash.com/photos/v6uiP2MD6vs
 
+.........
+Features
+    responsive on all devices
+
+............
+Technologies Used
 
 ### ___ Technology ___
 
@@ -87,6 +106,16 @@ Github
 Gitpod
 
 
+
+............
+Testing
+
+    W3C Markup Validator - Results
+    W3C CSS Validator - Results
+
+Testing User Stories from User Experience (UX) Section
+    First Time Visitor Goals
+    Returning Visitor Goals
 ### ___ BUGGS ___
 
 Navbar - Underline hover animation doesn't work on all pages and the dropdown disappered. Keep it or discard?
@@ -155,7 +184,9 @@ Footer - responsive design won't work. Tried targeting different classes.
     Now the footer is responsive. 
     This also made me realize how to make the main content resposive on the other pages. 
 
-### ___ TESTING ___
+.............
+Deployment
+    GitHub Pages
 
 
 ### ___ CREDITS ___

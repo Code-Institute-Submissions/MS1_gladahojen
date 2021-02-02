@@ -240,14 +240,6 @@ div .aside-history img{
     padding-left: 50px;
 }
 
-/*-------------------- Main section Map*/
-
-.main-map {   
-    text-align: center;
-    padding-bottom: 0px;
-}
-
-
 /*--------------------Main section Motorcycle*/
 
 .motor{
@@ -472,7 +464,21 @@ h3.contact{
     display: flex;
 }
 
+/*-------------------- Main section Map*/
 
+h3.map{
+    padding-bottom: 0px;
+}
+
+.main-map {   
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+p.open{
+    color: #ffad42;
+    font-family: 'Chakra Petch', sans-serif;
+}
 
 /*--------------------Footer*/
 
