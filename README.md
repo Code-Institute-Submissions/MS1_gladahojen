@@ -1,6 +1,11 @@
 # Milestone project 1 - Glada Hojen
-### Goal: Build a new webpage to [Glada Hojen](https://gladahojen.se/) (current webpage) motorcycle workshop.
-#### (For refrence I have also added a link to the current webpage in the navbar logo instead of linking it back to index.html.)
+### Goal: Build an alternative webpage to [Glada Hojen](https://gladahojen.se/) (current webpage) motorcycle workshop.
+Worth to mention is that "glad" in swedish means "happy". So the english name for the
+workshop would be "Happy Bike".
+ 
+(For refrence I have also added a link to the current webpage in the navbar logo instead of linking it back to index.html.)
+
+#### In consent with my mentor Akshat Garg I made this website in swedish.
 
 **[My version](https://mjau83.github.io/MS1_gladahojen/?fbclid=IwAR2RnCUgmlylK_fVtRZSxlSKZdpiTHcssyOuu2Z3wjswQJ4FooHudN7BB-M)**
 
@@ -30,8 +35,6 @@ instagram and facebook, but customers are mostly around their 40's and up. My as
 is that they usually don't hang out as much on social media.
 
 ## Design
-
-Images, text, lists, a form, external links
 
 **Color:** 
 * Gray 
@@ -131,7 +134,7 @@ after being pushed in Gitpod the project was saved and stored on GitHub.
 
 ## Testing
 
-* [W3C Markup Validator](https://validator.w3.org/)
+* [W3C Markup Validator](https://validator.w3.org/) 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -172,7 +175,7 @@ after being pushed in Gitpod the project was saved and stored on GitHub.
         3. On the Contact page the user can send a email using a form.
 
 ### Futher testing
-* The website was tested on Chrome and on Android
+* The website was tested on Chrome and on Android (Samsung and Xperia)
 * The links was tested to ensure that they worked probably.
 * The different inputs in the form was tested to ensure that they worked probably.
 * A lot of time was spent testing the resposive design for desktop, 
@@ -195,7 +198,7 @@ Code from: https://stackoverflow.com/questions/40242378/underline-from-left-to-r
     7. The dropdown arrow becomes visable but I don't get any underline animation or a dropdown menu. It is
     also moved out of place.
     8. After tring to find answers on Goggle and Youtube without succes I decided to comment out the
-    code to discard this funtion.
+    code, and in the end to discard this funtion.
 
 * **Carousel** - Used Bootstrap to add a carousel in the header. Wouldn't start.
     
@@ -281,7 +284,7 @@ The text in the history section and in index.html was inspired from the [current
 
 * Tutor Support at Code Institute
 * My Mentor Akshat Garg, for giving feedback and advice
-* Helpful people on Slack
-* My friend Christoffer Nicklasson, for helping me read through the code
+* Helpful people on Slack, especially Eventyret_mentor for giving some last minute feedback.
+* My friend Christoffer Nicklasson, for helping me read through the code when I got stuck.
 * My friend and employer Magnus Glad owner of Glada Hojen, for giving me material and giving med the 
 consent to build an alternative website.

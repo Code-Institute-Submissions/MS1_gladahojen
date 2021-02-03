@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,18 +14,17 @@
         <!--Bootstrap navbar with dropdown. Underline animation discared-->
             <nav class="navbar navbar-expand-lg navbar-expand-sm fixed-top">
                 <a class="navbar-brand" href="https://gladahojen.se/">
-                    <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo" />
+                    <img src="./assets/images/gh_logo.JPG" alt="Logo" id="logo">
                     <!--logo is linked to current website for reference-->
-                </a>
+                </a>    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <i class="fas fa-bars"></i>
                     </span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link underline" href="index.html">Hem <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -33,22 +32,22 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle underline" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Butik
+                            Butik
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" href="motorcyle.html">Motorcykel</a>
                                 <a class="dropdown-item" href="rider.html">Förare</a>
                             </div>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link underline" href="contact.html">Kontakt <span class="sr-only"></span> </a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link active underline" href="contact.html">Kontakt <span class="sr-only"></span></a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
 
-        <section>
+        <section class="carousel">
         <!-- Carousel images / Bootstrap carousel with added fading class-->
             <div id="carousel-header" class="carousel slide carousel-fade" data-interval="2500" data-ride="carousel">
                 <div class="carousel-inner">
@@ -71,15 +70,15 @@
         <section class="main main-contact">
             <div class="opaque-overlay">&nbsp;</div>
             <h3 class="uppercase contact">Skicka ett mail<i class="far fa-envelope"></i></h3>
-            <form class="email-form" method="POST" action="#">
+            <form class="email-form">
                 <label for="name">Namn:</label>
-                <input id="name" class="text-input" type="text" placeholder="Förnamn Efternamn *" required /><br />
+                <input id="name" class="text-input" type="text" placeholder="Förnamn Efternamn*" required/>
                 <label for="email">Email:</label>
-                <input id="email" class="text-input" type="email" placeholder="Din epost-adress *" required />
+                <input id="email" class="text-input" type="email" placeholder="Din epost-adress*" required/>
                 <label for="number">Mobilnummer:</label>
-                <input id="number" class="text-input" type="number" placeholder="Mobilnummer (frivilligt)" />
+                <input id="number" class="text-input" type="number" placeholder="Mobilnummer (frivilligt)"/>
                 <label for="message">Ditt medelande</label>
-                <textarea id="message" class="text-input" placeholder="Ange gärna Märke, Modell och År på din hoj *"></textarea>
+                <textarea id="message" class="text-input" placeholder="Ange gärna Märke, Modell och År på din hoj*"></textarea>
                 <!--Textarea from Bootstrap-->
                 <div class="button-holder">
                     <input class="send-button uppercase" type="submit" value="Sänd"/>
@@ -93,7 +92,7 @@
             <p class="open">Öppet Mån - Fre 8.00 - 17.00</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8174.143159714683!2d18.1787992!3d59.1903398!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8f5ec10b8446761d!2sGlada%20hojen!5e0!3m2!1ssv!2sse!4v1611082944174!5m2!1ssv!2sse"
-                style="height: 400px; width: 100%; margin-left: 0;"><p>Your browser does not support iframes!</p>
+                style="height: 400px; width: 100%; margin-left: 0;">
             </iframe>
         </section>
         <!--Bootstrap layouts for columns-->

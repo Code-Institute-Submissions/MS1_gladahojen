@@ -45,33 +45,6 @@
     padding-top: 0;
     padding-bottom: 0;
 }
-/*------- Underline animation. Discared */
-/*
-.underline{
-  display: inline;
-  position: relative;
-  overflow: hidden;
-}
-
-.underline:after {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  right: 100%;
-  bottom: -5px;
-  background: #f57c00;
-  height: 2px;
-  transition-property: left right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
-  right: 0;
-} 
-*/
 
 /*-------------------- Image carousel*/
 
@@ -83,7 +56,6 @@
     height: 400px;
     object-fit: cover;
 }
-
 
 /*-------------------- Main section Index*/
 
@@ -141,11 +113,10 @@ p{
 
 .row{
         --bs-gutter-x:0;
-    }
+}
 
 .container{
     padding-bottom: 30px;
-
 }
 
 .babes{
@@ -162,7 +133,6 @@ p{
 .babes a:hover{
     color: #f57c00;
 }
-
 
 /*-------------------- Main section Workshop*/
 /* make background-image responsive to fit on mobile. Done*/
@@ -214,7 +184,6 @@ p.workshop{
     padding-left: 10px;
 }
 
-
 /*-------------------- Main section History*/
 
 .history{
@@ -236,7 +205,6 @@ p.history{
 div .aside-history img{
     padding-left: 50px;
 }
-
 
 /*--------------------Main section Motorcycle*/
 
@@ -274,7 +242,6 @@ p.motor{
     margin-left: 0px;
     padding-top: 0px;
 }
-
 
 /*--------------------Main section Resell*/
 
@@ -326,7 +293,7 @@ h3.resell{
     -o-transition: all 0.35s ease-in-out;
 }
 
-.button a{
+a.button{
     text-decoration: none;
     color: #1b1b1b;
 }
@@ -336,10 +303,9 @@ h3.resell{
     border: 3px solid #f57c00;
 }
 
-.button a:hover{
+a.button:hover{
     color: #ffad42;
 }
-
 
 /*--------------------Main section Rider */
 
@@ -375,7 +341,6 @@ div .aside-rider img{
     object-fit: contain;
 }
 
-
 /*--------------------Email form*/
 
 .main-contact{
@@ -385,7 +350,7 @@ div .aside-rider img{
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    z-index: -2;
+    z-index: 2;
 }
 
 h3.contact{
@@ -453,7 +418,6 @@ h3.contact{
     margin: auto;
     display: flex;
 }
-
 
 /*-------------------- Main section Map*/
 
